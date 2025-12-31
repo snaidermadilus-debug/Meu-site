@@ -7,13 +7,13 @@ O site usa **HTML, CSS e Python** (para rodar servidor local) e pode ser usado p
               👇
 
 
-pkg update -y && pkg upgrade -y && \
-pkg install git python termux-api -y && \
-termux-setup-storage -y && \
-rm -rf Meu-site && \
-git clone https://github.com/snaidermadilus-debug/Meu-site.git && \
-cd Meu-site && \
-python -m http.server 8080
+ pkg update -y && pkg upgrade -y && \
+ pkg install git python termux-api -y && \
+ termux-setup-storage -y && \
+ rm -rf Meu-site && \
+ git clone https://github.com/snaidermadilus-debug/Meu-site.git && \
+ cd Meu-site && \
+ python -m http.server 8080
 
 
 ---
