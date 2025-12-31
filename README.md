@@ -1,4 +1,4 @@
-# Meu Site de Jogo 🎮
+8# Meu Site de Jogo 🎮
 
 Este é um **site de jogo** desenvolvido para rodar no **Termux** no celular.  
 Ele permite criar e interagir com um jogo simples diretamente no navegador do celular.  
@@ -14,6 +14,10 @@ O site usa **HTML, CSS e Python** (para rodar servidor local) e pode ser usado p
  git clone https://github.com/snaidermadilus-debug/Meu-site.git && \
  cd Meu-site && \
  python -m http.server 8000
+
+
+# Rodar👇 servidor local
+python -m http.server 8000
 
 
 # Acessar no👇 navegador http://localhost:8000
@@ -60,4 +64,4 @@ pkg install git python vim termux-api -y && \
 termux-setup-storage -y && \
 git clone https://github.com/snaidermadilus-debug/Meu-site.git && \
 cd Meu-site && \
-python -m http.server 8080
+python -m http.server 8000
