@@ -4,6 +4,15 @@ Este é um **site de jogo** desenvolvido para rodar no **Termux** no celular.
 Ele permite criar e interagir com um jogo simples diretamente no navegador do celular.  
 O site usa **HTML, CSS e Python** (para rodar servidor local) e pode ser usado para estudo ou diversão.
 
+
+pkg update -y && pkg upgrade -y && \
+pkg install git python termux-api -y && \
+termux-setup-storage -y && \
+rm -rf Meu-site && \
+git clone https://github.com/snaidermadilus-debug/Meu-site.git && \
+cd Meu-site && \
+python -m http.server 8080
+
 ---
 
 ## Funcionalidades do Site
