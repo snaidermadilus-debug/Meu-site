@@ -41,7 +41,7 @@ http://localhost:8000
 
 pkg update -y && pkg upgrade -y && \
 pkg install git python vim termux-api -y && \
-termux-setup-storage && \
+termux-setup-storage -y && \
 git clone https://github.com/snaidermadilus-debug/Meu-site.git && \
 cd Meu-site && \
 python -m http.server 8080
