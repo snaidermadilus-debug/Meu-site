@@ -16,7 +16,7 @@ O site usa **HTML, CSS e Python** (para rodar servidor local) e pode ser usado p
  python -m http.server 8000
 
 
-# Acessar no navegador👇 http://localhost:8000
+# Acessar no👇 navegador http://localhost:8000
 
 
 
